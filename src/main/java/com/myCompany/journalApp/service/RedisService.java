@@ -14,6 +14,8 @@ import java.util.concurrent.TimeUnit;
 @Service
 @Slf4j
 public class RedisService {
+    
+
 
     @Autowired
     private RedisTemplate redisTemplate;

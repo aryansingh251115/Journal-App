@@ -9,8 +9,8 @@ import org.springframework.mail.javamail.JavaMailSender;
 @Service
 @Slf4j
 
-public class EmailService {
-
+public class EmailService { 
+    
 
     @Autowired
     private JavaMailSender javaMailSender;
